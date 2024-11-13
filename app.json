@@ -2,6 +2,7 @@
   "expo": {
     "name": "HigaononDev",
     "slug": "HigaononDev",
+    "scheme": "Higaonondev",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shoukajj.HigaononDev"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5b035d38-afa3-49af-a684-444721e09274"
+      }
+    },
+    "owner": "shoukajj",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
