@@ -21,7 +21,16 @@ const tab_layout = () => {
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="cog" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="index"
+        options={{
+          title: 'Home',
+          headerShown: false,
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="cog" color={color} />,
+        }}
+      />
     </Tabs>
+        
   )
 }
 
