@@ -17,7 +17,7 @@ const dictionaryPage = () => {
     <SafeAreaView> 
       <View className='border-2 border-black mx-5' >
         <Text className='text-lg'>{capitalizeFirstLetter(item.word)}</Text>
-        <Text >{item.prn}{' '}{item.phonetic}</Text>
+        <Text >{item.prn} {' '} {item.phonetic}</Text>
         
       </View>
     </SafeAreaView>
