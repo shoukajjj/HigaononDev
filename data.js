@@ -1,5 +1,5 @@
 
-export const obj = () =>(
+export const obj = 
 [
   {
     //Pisikal Na Mundo
@@ -1221,5 +1221,4 @@ export const obj = () =>(
     "exH": "Kinaən hu bata su soda iman.",
     "ex": "‘Kinakain ng bata ang isda ngayon.’"
   }
- ]   
-)
+ ]

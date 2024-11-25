@@ -18,7 +18,7 @@ const DictionaryPage = () => {
 
   const renderItem = ({ item }) => (
     <SafeAreaView>
-      <Pressable onPress={() => router.push(`/${item.word}`)}> {/* Dynamic route */}
+      <Pressable onPress={() => router.push(`/${item.word}`)}> 
         <View style={{ borderWidth: 2, borderColor: 'black', marginHorizontal: 20, padding: 10 }}>
           <Text style={{ fontSize: 18 }}>{capitalizeFirstLetter(item.word)}</Text>
           <Text>{item.prn} {' '} {item.phonetic}</Text>
